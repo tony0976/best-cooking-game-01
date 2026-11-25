@@ -1,0 +1,40 @@
+/* Sizzle Station — page chrome around the canvas. Nothing here is game logic. */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2b1a0e;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+main {
+  padding: 18px;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  width: min(960px, 96vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  background: #c98f4e;
+  cursor: pointer;
+}
+
+.help {
+  color: #e8d9b8;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 14px 0 0;
+}
+
+.help b { color: #ffd76a; }
